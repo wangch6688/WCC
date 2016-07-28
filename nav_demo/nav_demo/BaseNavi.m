@@ -23,6 +23,9 @@
     
 //设置给navigationBar一个有名的图片,从而让其透明
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"clear.png"] forBarMetrics:UIBarMetricsDefault];
+
+ //也可以是导航栏变得透明
+    [self.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     
     
 }
