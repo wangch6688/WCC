@@ -27,6 +27,9 @@
  //也可以是导航栏变得透明
     [self.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     
+    //设置返回按钮隐藏
+    [self.navigationItem setHidesBackButton:YES];
+    
     
 }
 
